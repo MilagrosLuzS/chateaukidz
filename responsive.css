@@ -1,0 +1,72 @@
+
+@media (max-width: 991px)
+
+{
+	.flexcomo{
+		flex-wrap:wrap;
+	}
+
+	h1 {
+		font-size: 70px;
+	}
+
+	nav a{
+		font-size: 23px;
+	}
+
+	nav li{
+		padding: 15px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	a p{
+		padding-right:30px;
+		padding-left: 20px;
+	}
+
+	a p:hover{
+		background-color:white;
+    color:black;
+	}
+
+	}
+
+.gridfooter{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:1fr;
+    grid-template-areas: "insta"
+                         "logo"
+                         "saludo newsletter";
+}
+
+.logochat{
+    grid-area: logo;
+
+}
+.insta{
+    grid-area: insta;
+    margin-right: 600px;
+}
+
+.saludo{
+    grid-area: saludo;
+}
+
+
+.news{
+    grid-area: newsletter;
+}
+.separador{
+    grid-area: separador;
+    display: none;
+}
+
+label{
+    font-family: "Bebas Neue";
+    color:white;
+    font-size: 26px;
+    text-align: center;
+}
+

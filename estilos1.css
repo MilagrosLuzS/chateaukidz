@@ -1,0 +1,459 @@
+
+/* @media (min-width: 768px;)
+{
+    .menuresponsive{
+        font-size: 12px;
+    }
+} */
+
+body{
+	background-color: black;
+}
+header {
+	background-color: black;
+}
+
+.headlogo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100
+	background-color:black;
+}
+
+ul {
+	text-align: center;
+    margin-bottom: 60px;
+}
+nav a{
+	font-family:"Bebas Neue";
+    text-decoration:none;
+    color:inherit;
+    font-size:26px;
+
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:10px 10px;
+    background-color:black;
+    border:1px solid white;
+    border-radius: 10px;
+    text-align:center;
+    color:white;
+    }
+    nav li:hover{
+    background-color:white;
+    color:black;
+    }
+
+h1 {
+    font-family: "Bebas Neue";
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Bebas Neue";
+    color:white;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{
+    font-family: "Lato";
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.textofooter{
+font-family: "Lato";
+color:white;
+font-size: 18px;
+text-align: left
+}
+
+.gridfooter{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:1fr 1fr;
+    grid-template-areas: "logo insta"
+                         "saludo newsletter";
+}
+
+.logochat{
+    grid-area: logo;
+    margin:auto;
+    margin-top:60px;
+}
+.insta{
+    grid-area: insta;
+}
+
+.saludo{
+    grid-area: saludo;
+    margin-top: 5px;
+    margin-bottom:30px;
+}
+
+
+.news{
+    grid-area: newsletter;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.separador{
+    grid-area: separador;
+    display: none;
+}
+
+label{
+    font-family: "Bebas Neue";
+    color:white;
+    font-size: 26px;
+    text-align: center;
+}
+
+.boton{
+    display:inline-block;
+    width:30%;
+    padding:10px 10px;
+    background-color:black;
+    border:1px solid white;
+    border-radius: 10px;
+    text-align:center;
+    color:white;
+    margin-right: 150px;
+    margin-left:150px;
+    margin-bottom: 90px;
+
+}
+
+a p{
+    font-family:"Bebas Neue";
+    font-size:26px;
+    display:inline-block;
+    width:10%;
+    padding:10px 10px;
+    background-color:black;
+    border:1px solid white;
+    text-align:center;
+    color:white;
+    }
+    a p:hover{
+    background-color:white;
+    color:black;
+    }
+}
+
+p{
+    font-family: "Lato";
+    color:white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.buzo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+ 
+}
+
+/* estilos index */
+
+.banneruno {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100;
+    margin-bottom: 10px;
+}
+
+
+.precio{
+    font-family: "Lato";
+    color:white;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.bannerdos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+    width:100;
+}
+
+.sproduct{
+    display:inline-block;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 13px;
+    width:800px;
+    margin-left:3px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+        }
+
+.imguno{
+    margin-right: 20px;
+     margin-left: 20px;
+}
+
+.imgdos{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.imgtres{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.aw21{
+    display: flex;
+    justify-content: center;
+}
+
+.flexinicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.fleximg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexboton{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+
+}
+
+
+/* estilos productos */
+
+.grande{
+    font-family: "Bebas Neue";
+    color: white;
+    font-size: 40px;
+    text-align: center
+}
+
+.definicion{
+    font-family: "Lato";
+    color:white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hood{
+    display:inline-block;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 13px;
+    width:453px;
+    margin-left:3px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.flexhoodies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.flexremeras{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* estilos quienessomos */
+
+.socio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.socio__milagros{
+    margin: 60px;
+}
+.socio__milagros:hover{
+    transform: scale(1.2);
+}
+
+.socio__eileen{
+    margin: 60px;
+}
+.socio__eileen:hover{
+    transform: scale(1.2);
+}
+
+.socio__gonzalo{
+    margin: 60px;
+}
+.socio__gonzalo:hover{
+    transform: scale(1.2);
+}
+
+.socio__agustina{
+    margin: 60px;
+}
+.socio__agustina:hover{
+    transform: scale(1.2);
+}
+
+.socio__buzo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.socio__definicion{
+    font-family: "Lato";
+    color:white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.historia{
+    text-align:justify;
+    font-family: "Lato";
+    color:white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left:220px;
+    margin-right: 220px;
+    margin-bottom: 20px
+}
+
+.chateaukid{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* estilos comocomprar */
+
+ol{
+
+    border-color: white;
+    border-width:1px;
+    border-style:solid;
+    width: 500px;
+    margin-right: 70px;
+    margin-left: 30px;
+    padding-right: 40px;
+    padding-left: 60px;
+    padding-top: 30px; 
+    padding-bottom:30px;
+
+}
+
+ol li{
+    font-family: "Lato";
+    color:white;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+
+.irproductos{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+table{
+    color: white;
+    border-color: white;
+    font-family: "Bebas Neue";
+    font-size: 26px;
+}
+
+.flexcomo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* estilos contacto */
+
+
+
+.pais{
+    font-family: "Bebas Neue";
+    color:white;
+    font-size: 26px;
+    text-align: center;
+}
+
+.novedades{
+    font-family: "Bebas Neue";
+    color:white;
+    font-size: 26px;
+    text-align: center;
+}
+
+.check{
+    font-family: "Bebas Neue";
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+fieldset{
+    text-align: center;
+    width: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 5px;
+    margin-top:5px;
+    margin-left: 1px;
+    margin-right: 20px;
+}
+
+.fotocontacto{
+    margin-bottom: 25px;
+    margin-right: 1px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.botones{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.flexcontacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:radial-gradient(circle,#630005,black);
+    border-color: white;
+    border-style: solid;
+    border-radius: 13px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
