@@ -1,0 +1,159 @@
+body {
+	background-color:black;
+
+  header {
+	background-color:black;
+         }
+
+  .headlogo{
+  	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100;
+	background-color:black;
+  }
+
+  h1 {
+    font-family: "Bebas Neue";
+    color: white;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Bebas Neue";
+    color:white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h3{
+    font-family: "Lato";
+    color:white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .historia{
+    text-align:justify;
+    font-family: "Lato";
+    color:white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left:220px;
+    margin-right: 220px;
+    margin-bottom: 20px
+  }
+
+  .chateaukid{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+ 
+ }
+
+nav {
+ 
+     ul{
+     text-align: center;
+     margin-bottom: 60px;
+     }
+
+     a{
+    font-family:"Bebas Neue";
+    text-decoration:none;
+    color:inherit;
+    font-size:26px;
+     }
+
+     li{
+    display:inline-block;
+    width:10%;
+    padding:10px 10px;
+    background-color:black;
+    border:1px solid white;
+    border-radius: 10px;
+    text-align:center;
+    color:white;
+
+     }
+
+     li:hover{
+     background-color:white;
+     color:black;	
+     }
+
+}
+
+
+.socio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   .socio__milagros{
+    margin: 60px;
+   }
+
+   .socio__milagros:hover{
+    transform: scale(1.2);
+   }
+
+   .socio__eileen{
+    margin: 60px;
+   }
+
+   .socio__eileen:hover{
+    transform: scale(1.2);
+   }
+
+   .socio__gonzalo{
+    margin: 60px;
+   }
+
+  .socio__gonzalo:hover{
+    transform: scale(1.2);
+   }
+
+   .socio__agustina{
+    margin: 60px;
+   }
+
+   .socio__agustina:hover{
+    transform: scale(1.2);
+   }
+
+   .socio__buzo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+   }
+
+   .socio__definicion{
+    font-family: "Lato";
+    color:white;
+    font-size: 18px;
+    text-align: center;
+   }
+}
+
+a {
+   
+   p{
+    font-family:"Bebas Neue";
+    font-size:26px;
+    display:inline-block;
+    width:10%;
+    padding:10px 10px;
+    background-color:black;
+    border:1px solid white;
+    text-align:center;
+    color:white;
+    }
+    
+    p:hover{
+    background-color:white;
+    color:black;
+    }
+
+}
