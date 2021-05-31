@@ -142,7 +142,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     margin-bottom:30px;
-    width:100;
+    width:1260px;
 }
 
 .sproduct{
@@ -166,17 +166,20 @@ p{
 
 .imguno{
     margin-right: 20px;
-     margin-left: 20px;
+    margin-left: 20px;
+    width: 400px;
 }
 
 .imgdos{
     margin-right: 20px;
     margin-left: 20px;
+    width: 400px;
 }
 
 .imgtres{
     margin-right: 20px;
     margin-left: 20px;
+    width: 400px;
 }
 
 .aw21{
@@ -198,8 +201,17 @@ p{
 
 .flexboton{
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
     justify-content: center;
+
+}
+
+.flexinsta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -303,6 +315,7 @@ p{
     margin-right: 100px;
     margin-left: 300px;
     margin-top:50px;
+    width: 800px;
 }
 
 .historia{
@@ -356,12 +369,6 @@ ol li{
     margin-bottom: 50px;
 }
 
-table{
-    color: white;
-    border-color: white;
-    font-family: "Bebas Neue";
-    font-size: 26px;
-}
 
 .flexcomo{
     display: flex;
@@ -475,24 +482,438 @@ label{
     
 }
 
-.insta{
-    margin-left: 670px;
-    margin-top: 60px;
-}
 
 footer{
     background-color: black;
 }
 
 
-@media (max-width: 991px;){
-    
+@media (max-width: 1024px){
+
+    /* estilos responsive index */
+
+    ul{
+        padding-left: 0px;
+    }
+
+    h1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .videopromo{
-        width:200px !important;
+        width:900px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .socio{
+    video{
+        width: 100%;
+    }
+
+    .flexinicio{
         flex-wrap: wrap;
+        width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+    
     }
 
-}
+    .sproduct{
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .fleximg{
+        width: 900px;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imguno{
+        width: 300px;
+        margin-right: 5px;
+        margin-left: auto;
+    }
+
+    .imgdos{
+        width: 300px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .imgtres{
+        width: 300px;
+        margin-left: 5px;
+        margin-right: auto;
+    }
+
+    .flexboton {
+        margin-right: 150px;
+    }
+
+    .flexboton a {
+        width:280px;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    p .boton {
+        margin-right: 90px;
+    }
+
+    .awcamp{
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .bannerdos{
+        width: 860px;
+        margin-left: auto;
+        margin-left: auto;
+    }
+
+    .insta{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flexfooter{
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+
+
+    /* estilos responsive quienes somos */
+
+
+    .flexposter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 80px;
+        margin-bottom: 50px;
+    }
+
+    .postersomos{
+        width: 650px;
+    }
+
+    .chateaukid p{
+        width: 300px;
+    }
+
+   /* estilos responsive como comprar */
+
+   .irproductos p{
+       width: 300px;
+   }
+
+   .flexcomo{
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
+
+   /* estilos responsive como comprar */
+
+   .flexcontacto{
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
+
+
+@media (max-width: 991px){
+
+    /* estilos responsive index */
+
+    ul{
+        padding-left: 0px;
+    }
+
+    h1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .videopromo{
+        width:700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    video{
+        width: 100%;
+    }
+
+    .flexinicio{
+        flex-wrap: wrap;
+        width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+    
+    }
+
+    .sproduct{
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .fleximg{
+        width: 900px;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imguno{
+        width: 300px;
+        margin-right: 5px;
+        margin-left: auto;
+    }
+
+    .imgdos{
+        width: 300px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .imgtres{
+        width: 300px;
+        margin-left: 5px;
+        margin-right: auto;
+    }
+
+    .flexboton {
+        margin-right: 5px;
+    }
+
+    .flexboton a {
+        width:280px;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    p .boton {
+        margin-right: 90px;
+    }
+
+    .awcamp{
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .bannerdos{
+        width: 860px;
+        margin-left: auto;
+        margin-left: auto;
+    }
+
+    .insta{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flexfooter{
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+
+
+    /* estilos responsive quienes somos */
+
+
+    .flexposter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 80px;
+        margin-bottom: 50px;
+    }
+
+    .postersomos{
+        width: 650px;
+    }
+
+    .chateaukid p{
+        width: 300px;
+    }
+
+   /* estilos responsive como comprar */
+
+   .irproductos p{
+       width: 300px;
+   }
+
+   .flexcomo{
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
+
+   /* estilos responsive como comprar */
+
+   .flexcontacto{
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
+
+
+@media (max-width: 768px){
+
+    .textofooter{
+        font-size: 23px;
+    }
+
+    .logochat{
+        width: 400px;
+    }
+
+    /* estilos responsive index */
+
+    ul{
+        padding-left: 0px;
+    }
+
+    h1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .videopromo{
+        width:700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    video{
+        width: 100%;
+    }
+
+    .flexinicio{
+        flex-wrap: wrap;
+        width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+    
+    }
+
+    .sproduct{
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .fleximg{
+        width: 650px;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imguno{
+        width: 230px;
+        margin-right: 5px;
+        margin-left: auto;
+    }
+
+    .imgdos{
+        width: 230px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .imgtres{
+        width: 230px;
+        margin-left: 5px;
+        margin-right: auto;
+    }
+
+    .flexboton {
+        margin-right: 90px;
+    }
+
+    .flexboton a {
+        width:280px;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    p .boton {
+        margin-right: 300px;
+    }
+
+    .awcamp{
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .bannerdos{
+        width: 700px;
+        margin-left: auto;
+        margin-left: auto;
+    }
+
+    .insta{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flexfooter{
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+
+
+    /* estilos responsive quienes somos */
+
+    h3{
+        font-size: 38px;
+    }
+
+    .flexposter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 80px;
+        margin-bottom: 50px;
+    }
+
+    .postersomos{
+        width: 650px;
+    }
+
+    .chateaukid p{
+        width: 300px;
+    }
+
+   /* estilos responsive como comprar */
+
+   .irproductos p{
+       width: 300px;
+   }
+
+   .flexcomo{
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
+
+   ol li{
+    font-size: 27px;
+    line-height: 35px;
+   }
+
+   /* estilos responsive como comprar */
+
+   .flexcontacto{
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
