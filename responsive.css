@@ -282,6 +282,7 @@
 
     .textofooter{
         font-size: 23px;
+        text-align: center;
     }
 
     .logochat{
@@ -467,7 +468,7 @@
     }
 
     .logochat{
-        width: 300px;
+        width: 270px;
     }
 
 
@@ -1039,6 +1040,20 @@
         margin-left: auto;
         margin-right: auto;
         flex-direction: column;
+    }
+
+    /* estilos responsive productos */
+
+    .flexhoodies{
+        width: 300px;
+    }
+
+    .hood{
+        width: 300px;
+    }
+
+    .buzo{
+        height: 270px;
     }
 
     /* estilos responsive quienes somos */
